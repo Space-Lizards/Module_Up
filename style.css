@@ -1,0 +1,63 @@
+/* style.css */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.block {
+	width: 80%;
+	max-width: 600px;
+	margin: 20px auto;
+	border: 2px solid #333;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#sub_block {
+	width: 80%;
+	max-width: 600px;
+	margin: 30px auto;
+	border: 2px solid #333;
+	border-radius: 10px;
+	padding: 10px;
+	justify-content: center; /* added this property */
+}
+
+#img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+label {
+	display: flex;
+	margin: 10px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+input {
+	display: inline-block;
+	width: 80%;
+	font-size: 20px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+button {
+	display: block;
+	max-width: 600px;
+	width: 50%;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #555;
+}
